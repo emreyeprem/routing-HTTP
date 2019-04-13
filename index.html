@@ -9,6 +9,26 @@
 <body>
 <div id="app">
 </div>
+
+   <!-- <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script> -->
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBc-fpuHOG9HR4MBYgvZ9t6WipDZWnMuvI",
+    authDomain: "vuejs-http-35582.firebaseapp.com",
+    databaseURL: "https://vuejs-http-35582.firebaseio.com",
+    projectId: "vuejs-http-35582",
+    storageBucket: "vuejs-http-35582.appspot.com",
+    messagingSenderId: "165221270166"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <script src="/dist/build.js"></script>
 </body>
 </html>
